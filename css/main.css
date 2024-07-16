@@ -170,7 +170,9 @@ body {
 
 /* Common Style */
 .ww-title {
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", sans-serif; }
+.ww-subtitle {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif }
 
 .ww-section {
   padding: 100px 0; }

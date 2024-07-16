@@ -86,7 +86,7 @@
 </div>
 <div class="ww-section bg-light" id="events">
   <div class="container ww-wedding-event">
-    <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Wedding Events</h2>
+    <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Events</h2>
     <div class="row">
       <div class="col-md-7 col-sm-12">
         <div class="my-3">
@@ -245,11 +245,12 @@
   <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="col text-center">
       <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Join Our Party</h2>
+      <h3 class="h3 ww-subtitle pb-3 text-center">Reminder&colon; <strong><em>DO&nbsp;NOT</em></strong> submit passwords through this form</h3>
     </div>
     <div class="row ww-rsvp-form">
       <div class="col-md-10">
         <div class="card-body">
-          <form action="https://formspree.io/example@email.com" method="POST">
+          <form action="https://formspree.io/f/mdknkyoe" method="POST">
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
@@ -264,6 +265,14 @@
                 </div>
               </div>
             </div>
+            <div clas="row">
+                <div class="pb-3">
+                  <div class="form-group">
+                    <label for="address-input">Where should we send our thank&dash;you note&quest;</label>
+                    <input class="form-control" id="address-input" type="address" name="_thank"/>
+                </div>
+              </div>
+            </div>
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
@@ -271,18 +280,17 @@
                   <select class="form-control" id="guest-input" name="guest">
                     <option value="1">One</option>
                     <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
                   </select>
                 </div>
               </div>
               <div class="col-md-6 pb-3">
                 <div class="form-group">
-                  <label for="events-input">I am Attending</label>
+                  <label for="events-input">I am Attending&colon;</label>
                   <select class="form-control" id="events-input" name="events">
-                    <option value="all-event">All Events</option>
-                    <option value="wedding-ceremony">Wedding ceremony</option>
-                    <option value="reception-party">Reception Party</option>
+                    <option value="both-event">Both Events</option>
+                    <option value="wedding-ceremony">Wedding&nbsp;Ceremony</option>
+                    <option value="reception-party">Reception</option>
+                    <option value="respectful-decline">Respectfully&nbsp;Decline</option>
                   </select>
                 </div>
               </div>
@@ -308,8 +316,7 @@
 </div>
 <div class="ww-footer bg-light">
   <div class="container text-center py-4">
-    <p class="my-0">&copy; Wonderful Wedding. All rights reserved.</p>
-    <p class="mb-0">Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+    <!-- <p class="my-0">Directions to the venue</p> -->
   </div>
 </div></div>
     </div>
